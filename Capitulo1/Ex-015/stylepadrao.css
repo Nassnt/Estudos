@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+        body{
+            background-color: aqua;
+            font-family: monospace;
+            font-size: 15px
+        }
+        h1{
+            font-family: fantasy;
+        }
+        
+        h2{
+            color: rgb(36, 112, 29);
+        }
+        p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
