@@ -1,0 +1,35 @@
+@charset "UTF-8";
+*{}
+
+body{
+    font-family: sans-serif,serif ;
+    /*TIPO DE FONTE*/
+    
+    font-size: 1,5em ;
+    /*
+    Medidas absolutas
+    cm, mm, in, px, pt, pc
+    
+    Medidas Relativas
+    em, ex, rem, vw, %
+    16 px geralmente = 1em*/
+    
+    font-weight:lighter;
+    /*PESO DA FONTE
+
+    /*NUMÉRICA= DE 100 A 900
+
+    /* LIGHTER=LEVE, NORMAL, BOLD=ESCURA, BOLDER=MAIS NEGRITO*/
+
+    /* WEIGHT= peso da fonte, WIDTH= largura, HEIGHT= altura*/
+
+    font-style: normal;
+    /*ESTILO DA FONTE*/
+}
+h1{
+        font: italic bolder 3em 'work sans' sans-serif;
+    /* Shorthand font= Resume varias tags em uma só linha, mas deve-se seguir a ordem das tags= font-style--> font-weight--> font-size--> font-family*/  
+}
+
+h2{
+    font-style: normal bold 5em 'work sans';}

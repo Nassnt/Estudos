@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'Honk';
+    src: url(Fonte/Honk-Regular.ttf);
+}
+div{
+    display: inline-block;
+    background-color: cadetblue;
+    border: 1px solid black;
+    text-align:center;
+    height: 300px;
+    width: 300px;
+    font-family: 'Honk';
+
+}
+div:hover{ /*Hover cria uma ação usando o mouse(PSEUDO-CLASSE) */
+    background-color: brown;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Honk';
+    
+}
+
+
+/* o simbolo > no CSS significa filho de, abaixo ocultamos um texto e fizemos aparecer usando div= ação + display para ocultar p filho do div t1, em seguida usamos HOVER=ação em seguida bloqueamos o display com ação HOVER  */
+
+/*DIV#T1 representa uma DIV, está representado por DIV#T1 por que tive que criar uma identificaçao, já que somente Div já está sendo usado acima*/
+
+
+div#t1{
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    height: auto;
+    width: auto;
+}
+div#t1>p{
+    display: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(0, 0, 0);
+    width:auto;
+    text-align: left;
+    color: rgb(255, 0, 0);
+}
+div#t1:hover>p{ /*HOVER significa que quando o mouse passar por cima do texto da DIV#T1 o DISPLAY:NONE(SUMIR TEXTO) será substituído por DISPLAY:BLOCK (BLOQUEANDO O PRÓPRIO SUMIÇO DO TEXTO) */
+    display: block;
+}
+
+li{
+    text-align: center;
+    
+}
+
+a{
+    color: black;
+    text-decoration: none; /*significa a linha debaixo do texto*/
+    font-weight:bold; /*Negrito*/
+}
+a:visited{
+    color:blue;
+}
+a:hover{
+    color: black;
+    text-decoration:underline;
+}
+a:active{ /*Ação quado o acontecer o clic*/
+    color: rgb(26, 100, 76);
+}
+
+
+
+
+

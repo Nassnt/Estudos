@@ -1,0 +1,42 @@
+@charset "UTF-8";
+*{}
+
+
+
+body{
+    background-image:linear-gradient( to left, rgb(1, 59, 1), green, yellow);
+    align-self: center;
+}
+p{
+    font-family: 'street',monospace, sans-serif;
+}
+
+h1{
+    font-family: 'street';
+    font-size: 80px;/*tamanho da fonte*/
+    text-align: center; /*alinhamento- LEFT(ESQUERDA) CENTER(CENTRO) RIGHT(DIREITA) JUSTIFY(ALINHAMENDO DOS DOIS LADOS) TEXT INDENT( MARGEM PARA INÍCIO DE PARAGRAFO)*/
+    text-shadow:30px 30px 30px ;/*sombras*/ 
+            border-radius: 90px ;/*curvatura da borda em caso de bom-shadow */
+            width: 900px;/*Largura*/
+            padding:5px;/*tamanho da caixa/ preenchimento*/
+            margin:auto;
+            
+           
+            
+
+}
+h2{
+    font-family:'street';
+    font-size: 50px;
+    text-align: center;
+}
+h3{
+    font-family:"Honk";
+    font-size: 50px;
+    text-align: center;
+}
+h4{
+    font-family:"Bungee Spice";
+    font-size: 30px;
+    text-align: center;
+} 

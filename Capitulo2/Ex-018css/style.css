@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family:'Street';
+    src: url(Fontes/Streetfire.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;}
+    /* TIPOS DE FORMAT()
+    opentype(otf)
+    truetype(ttf)
+    embedded-opentype
+    truetype-aat(Apple advanced typography)
+    - svg */
+
+body{background-image:linear-gradient(to right, #020402, #5F4BB6, #EFF1F3);
+    background-attachment: fixed;
+
+}
+
+h1{
+    font-family:'Street';
+    font-size: 100px;
+    text-align: center;
+}
+#H1linha{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+}
+#h21linha{
+    text-align: right;
+    font-family: initial;
+}
+#h22linha{
+    color: aliceblue;
+    text-shadow:5px 5px 5px ;
+    text-align: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+main{background-color:#5f4bb61f;
+    box-shadow:30px 30px 30px ;
+    border-radius: 20px ;
+    width: 600px;
+    padding: 30px;
+    margin:auto;
+    text-align: center;
+}
+
+
+.principal{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pt2{
+    font-family: fantasy;
+    color:tomato;
+}
+
+.h2principal{
+    color: white;
+}
+.h22{
+    color: crimson;
+}
+
+
+/* OU SEJA, EXISTEM DUAS FORMAS DE TRABALHAR EM TAGS ISOLADAMENTES AS DEMAIS DO BORY, UMA EM ESPECIFICO USANDO ID(HTML)=#(CSS)
+OU SEPARANDO EM CLASSES USANDO CLASS(HTML)= .(CSS) 
+OBS: PODEMOS ADD MAIS DE UMA CLASSE EM UM MENSMO ELEMENTO */

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(0, 0, 0);
+            margin: 0px;
+        }
+        h1{
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 2px;
+            color: aqua;
+        }
+        header{
+            background-color: rgb(255, 127, 127);
+            padding:5px;
+            margin: 10px;
+        }
+        header nav{
+            background-color: rgb(10, 54, 54);
+            display:block;
+            margin: 0px;
+            transition:0,2s;
+        }
+        header nav :hover{
+            background-color: black;
+            border-radius:10px;
+            
+        }
+        
+        header nav #v{
+            background-color: rgb(170, 255, 0);
+            transition:0,6s;
+            display:inline-block;
+        }
+        header nav #v:hover{
+            background-color: black;
+        }
+        header nav #b{
+            background-color: azure;
+            display: inline-block;
+            transition: 0,6s;
+        }
+        header nav #b:hover{
+            background-color: rgb(0, 0, 0);
+        }
+        header nav #n{
+            background-color: blue;
+            display: inline-block;
+            transition: 0,6;
+        }
+        header nav #n:hover{
+            background-color: black;
+        }
+        header nav a{
+            padding: 10px;
+            text-decoration:none;
+            display: inline-block;
+            color: rgb(238, 131, 0);
+            transition: 0,1s;    
+        }
+        header nav a :hover{
+            background-color: slategrey
+        }
+        main{
+            background-color: rgb(251, 255, 0);
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: rgb(58, 166, 255);
+            padding: 5px;
+            border-radius: 5px;
+        }
+        aside{
+            background-color: rgb(248, 5, 195);
+            padding:1px;
+        }
+        footer{
+            background-color: rgb(255, 0, 0);
+            color: white;
+            text-align: center;
+            padding: 3px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="0" id="v">link</a>
+            <a href="0" id="b">link</a>
+            <a href="0" id="n">link</a>
+            <a href="0">link</a>
+            <a href="0">link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos"></section>
+        <section id="niticias"></section>
+            <article>
+                <h2>Notícias sobre o Brasil.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur exercitationem repudiandae inventore assumenda, optio, doloribus repellat veniam, vero voluptatum cupiditate quaerat? Vel unde eligendi in ea nam rem architecto excepturi.</p>
+                <aside>
+                   <p>Artigo escrito por alguém.</p> 
+                </aside>
+            </article>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Natan.</p>
+    </footer>
+
+
+</body>
+</html>
